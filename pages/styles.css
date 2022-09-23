@@ -145,8 +145,6 @@ img{
 .container_second-sm{
   padding-left: 10em;
   padding-right: 10rem;
-  padding-top: 4em;
-  padding-bottom: 4em;
   color: #ffffff;
 }
 
@@ -154,6 +152,13 @@ img{
 .container_content{
   margin-left: 2em;
   margin-right: 2em;
+  color: #fffefe;
+}
+
+.container_content h3{
+  color: #fffefe;
+  justify-content: center;
+  text-decoration: underline;
 }
 
 .container_second-sm p{
