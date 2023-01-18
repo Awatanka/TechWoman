@@ -34,6 +34,89 @@ home page, homepage, site about Vancouver" />
 
 <style>
   /*********************YOU CAN ADD STYLE HERE********************************/
+  .main__section {
+    margin-top: 1rem;
+    padding: 0 2rem 0 2rem;
+  }
+
+  .main__section-title {
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin: 0;
+  }
+
+  /* gallery section*/
+
+  .main__gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+
+  .main__gallery--title {
+    flex-direction: row;
+  }
+
+  .main-gallery__image {
+    max-width: 100%;
+    width: 40rem;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+    filter: grayscale(100%);
+    border-radius: .3125rem;
+  }
+
+  .main-gallery__image:hover {
+    filter: none;
+    transform: scale(1.05);
+  }
+
+
+
+
+  .main__second--header {
+    font-weight: 700;
+    font-size: 2.25rem;
+    line-height: 2.75rem;
+  }
+
+  .main__second--content {
+    column-count: 2;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .main__first--content {
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .main__first--author {
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .main__gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 0 auto;
+  }
+
+  .image {
+    width: 30%;
+  }
 </style>
 
 
@@ -100,7 +183,29 @@ home page, homepage, site about Vancouver" />
 
 
 
+  <section class="main__section">
 
+    <h3 class="main__section-title"> Photo Gallery</h3>
+    <!-----------------------------gallery section--------------------------------->
+
+    <section class="main__gallery center">
+      <div class="row image">
+        <img src="/images/Photo-gallery-1.jpg" alt="concert" class="main-gallery__image">
+        <img src="/images/Photo-gallery-2.jpg" alt="concert" class="main-gallery__image">
+        <img src="/images/Photo-gallery-3.jpg" alt="concert" class="main-gallery__image">
+      </div>
+      <div class="row image">
+        <img src="/images/Photo-gallery-4.jpg" alt="concert" class="main-gallery__image">
+        <img src="/images/Photo-gallery-5.jpg" alt="concert" class="main-gallery__image">
+        <img src="/images/Photo-gallery-6.jpg" alt="concert" class="main-gallery__image">
+      </div>
+      <div class="row image">
+        <img src="/images/Photo-gallery-7.jpg" alt="concert" class="main-gallery__image">
+        <img src="/images/Photo-gallery-8.jpg" alt="concert" class="main-gallery__image">
+        <img src="/images/Photo-gallery-9.jpg" alt="concert" class="main-gallery__image">
+      </div>
+    </section>
+  </section>
 
 
 
@@ -137,7 +242,7 @@ home page, homepage, site about Vancouver" />
       <!-- Grid container -->
       <div class="container p-4 pb-0">
         <!-- Section: Links -->
-        <section class="">
+        <section class="col-auto">
           <!--Grid row-->
           <div class="row">
             <!-- Grid column -->
@@ -220,7 +325,7 @@ home page, homepage, site about Vancouver" />
               <!-- Copyright -->
               <div class="p-3">
                 © 2022 Copyright:
-                <a class="text-white">TechWoman Program</a>
+                <a class="text-white">Nataliia Sokolova</a>
               </div>
               <!-- Copyright -->
             </div>
